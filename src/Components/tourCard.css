@@ -1,0 +1,9 @@
+img{
+    object-fit: cover;
+}
+.details{
+    position:absolute; 
+}
+.pointer:hover{
+    cursor: pointer;
+}
