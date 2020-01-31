@@ -13,7 +13,7 @@ function TourListing(props) {
       adults: "1",
       children: "2",
       date: "3 feb 2020",
-      amount: "1000"
+      price: "1000"
     },
     {
       name: "Paris",
@@ -22,7 +22,7 @@ function TourListing(props) {
       adults: "2",
       children: "",
       date: "3 feb 2020",
-      amount: "2500"
+      price: "2500"
     },
     {
       name: "Egypt",
@@ -31,7 +31,7 @@ function TourListing(props) {
       adults: "2",
       children: "1",
       date: "3 feb 2020",
-      amount: "1800"
+      price: "1800"
     },
     {
       name: "Canada",
@@ -40,7 +40,7 @@ function TourListing(props) {
       adults: "3",
       children: "3",
       date: "3 feb 2020",
-      amount: "1800"
+      price: "1800"
     },
     {
       name: "Germany",
@@ -49,7 +49,7 @@ function TourListing(props) {
       adults: "1",
       children: "2",
       date: "3 feb 2020",
-      amount: "2000"
+      price: "2000"
     },
     {
       name: "Dubai",
@@ -58,7 +58,7 @@ function TourListing(props) {
       adults: "2",
       children: "",
       date: "3 feb 2020",
-      amount: "1700"
+      price: "1700"
     }
   ]);
   const [selectedTour, setSelectedTour] = useState("");
