@@ -94,9 +94,6 @@ function TourListing(props) {
         ></TourDetails>
       </div>
     );
-    console.log(showDetails);
-    console.log(selectedTour);
-    console.log(details);
   }
 
   return (
